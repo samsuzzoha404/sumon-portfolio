@@ -1,13 +1,20 @@
 
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 
@@ -16,17 +23,60 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    margin-top: 5%;
-
 }
 
-.half-width-p{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("photos/top-banner.png");
+    background-repeat: no-repeat;
 }
 
-.half-width-p img{
-    width: 95%;
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, Tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+}
+a:hover{
+    color: black;
+}
+
+.big-dream{
+    background-image: url("photos/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow-man{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#YT{
+    border-left:7px solid;
+    border-image: linear-gradient(180deg, yellow, Tomato);
+    border-image-slice: 1;
+}
+#BC{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
